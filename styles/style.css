@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+.main_link_marker {
+  list-style: none;
+}
+
 .link_list {
   font-size: 18px;
   font-weight: 400;
@@ -28,17 +32,15 @@
   text-underline-offset: 4px;
 }
 
-.main_link_marker {
-  list-style: none;
-}
-
-.link_main {
+.link_list a.link_main {
   text-decoration: none;
 }
 
 .header>a {
   justify-self: center;
   display: block;
+  width: 148px;
+  height: 105px;
 }
 
 .header_logo {
@@ -57,6 +59,7 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
+  font-weight: 400;
   line-height: 24.3px;
   letter-spacing: 0.18px;
   font-style: normal;
@@ -152,11 +155,10 @@
 
 .title_lots {
   margin: 0 0 27px 40px;
-  padding: 0;
+  color: #000;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
 }
 
 .container_lots {
@@ -232,10 +234,10 @@
 .view_more {
   display: inline-block;
   margin: 30px 0 0 40px;
+  color: #000;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
-  color: #000;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
@@ -254,12 +256,12 @@
   justify-self: center;
   width: 240px;
   height: 240px;
-  margin-top: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #000;
   border-radius: 50%;
+  margin-top: 35px;
 }
 
 .about_logo_image {
@@ -273,11 +275,11 @@
 
 .title_about {
   margin: 0;
+  color: #000;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
   text-transform: uppercase;
-  color: #000;
 }
 
 .about_text {
@@ -285,14 +287,15 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  color: #000;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: #000;
 }
 
 .text_up,
 .text_down {
+  margin: 0;
   padding: 0;
 }
 
@@ -309,7 +312,6 @@
 
 .footer_menu {
   justify-self: center;
-  padding: 0;
 }
 
 .footer_menu_links {
@@ -331,7 +333,7 @@
   text-underline-offset: 4px;
 }
 
-.footer_main {
+.footer_links a.footer_main {
   text-decoration: none;
 }
 
@@ -342,6 +344,7 @@
 }
 
 .images_footer {
+  display: block;
   width: 48px;
   height: 48px;
 }
